@@ -1,0 +1,28 @@
+package ch24;
+
+public class Student {
+	
+	private static int serialNum = 1000;
+	private int stuNum;
+	private String stuName;
+	
+	
+	public Student() {
+		serialNum++;
+		stuNum = serialNum;
+		return stuNum;
+	}
+	
+	public static int getStuNum() {
+		stuNum++;
+		return stuNum;
+	}
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	
+
+}//Student

@@ -1,0 +1,15 @@
+package ch24;
+
+public class StudentSubjectTest {
+
+	public static void main(String[] args) {
+
+		Student studentLee new Student(1001, "Lee");
+		
+		
+		
+		
+		
+	}//main
+
+}//StudentTest

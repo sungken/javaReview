@@ -1,0 +1,8 @@
+package ch24;
+
+public class Subject {
+	
+	private String korean;
+	private String math;
+
+}//Subject
