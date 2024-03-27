@@ -1,0 +1,14 @@
+package ch06_2;
+
+public class UserInfoTest {
+
+	public static void main(String[] args) {
+//int userAge, String userName, int userheight, int userWeight, String userGender
+		
+		
+		UserInfo UserTom = new UserInfo(37, "Tomas", 180, 78, "Man");
+		System.out.println(UserTom.showUserInfo());
+		
+	}
+
+}

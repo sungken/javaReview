@@ -1,0 +1,9 @@
+package ch19;
+
+public class Car {
+	
+	private String carName;
+	
+	
+	
+}//Car

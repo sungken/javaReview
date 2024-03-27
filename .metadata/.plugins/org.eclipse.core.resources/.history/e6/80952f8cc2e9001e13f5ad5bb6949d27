@@ -1,0 +1,20 @@
+package ch10;
+
+public class BirthDayTest {
+
+	public static void main(String[] args) {
+		
+		BirthDay date = new BirthDay();
+		date.setYear(2024);
+		date.setMonth(3);
+		date.setDay(24);
+		
+		
+		date.showDate();
+		
+		
+		
+		
+	}//main
+
+}//BirthDayTest

@@ -1,0 +1,22 @@
+package ch06_2;
+
+public class UserInfo {
+
+	public String userAge;
+	public String userPassWord;
+	public String userName;
+	public String userAddress;
+	public String phoneNumber;
+	
+	public UserInfo() {}
+	
+	public UserInfo(String userAge, String userPassWord, String userName) {
+		
+		this.userAge = userAge;
+		this.userName = userName;
+		this.userAddress = userAddress;
+		
+		
+	}
+	
+}

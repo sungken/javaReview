@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ch09.Student"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="ch10.BirthDayTest"/>
+    <fullyQualifiedTypeName name="ch04.Student"/>
+    <fullyQualifiedTypeName name="ch06.Student"/>
+    <fullyQualifiedTypeName name="ch07.UserInfo"/>
+    <fullyQualifiedTypeName name="ch10.BirthDay"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="ch12.Person"/>
+    <fullyQualifiedTypeName name="ch14.Student"/>
+    <fullyQualifiedTypeName name="ch14.Bus"/>
+    <fullyQualifiedTypeName name="ch14.Subway"/>
+    <fullyQualifiedTypeName name="ch14.Taxi"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch16.Employee"/>
+    <fullyQualifiedTypeName name="ch18.Company"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="ch19.CarFactoryTest"/>
+    <fullyQualifiedTypeName name="ch21.Book"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

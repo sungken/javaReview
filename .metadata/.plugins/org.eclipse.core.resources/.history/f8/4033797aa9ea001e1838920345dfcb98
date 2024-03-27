@@ -1,0 +1,20 @@
+package ch19;
+
+public class Car {
+	
+	private static int serialNum = 10000;
+	
+	private String carName;
+
+	public String getCarName() {
+		return carName;
+	}
+
+	public void setCarName(String carName) {
+		serialNum++;
+		this.carName = carName;
+	}
+	
+	
+	
+}//Car

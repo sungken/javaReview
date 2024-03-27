@@ -1,0 +1,10 @@
+package ch19;
+
+public class CarFactory {
+
+	private static int serialNum = 10000;
+	
+	public
+	
+	
+}//CarFactory

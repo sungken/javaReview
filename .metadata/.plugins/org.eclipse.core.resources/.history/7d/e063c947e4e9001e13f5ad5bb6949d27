@@ -1,0 +1,14 @@
+package ch16;
+
+public class Employee {
+
+	private int employeeid;
+	private String employeeName;
+	private String deparment;
+	
+	
+	
+	
+	
+	
+}//Employee

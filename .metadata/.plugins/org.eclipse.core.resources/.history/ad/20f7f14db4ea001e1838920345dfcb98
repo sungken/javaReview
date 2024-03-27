@@ -1,0 +1,17 @@
+package ch20;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+
+		int[] arr = new in[10];
+		
+		
+		
+		
+		
+		
+		
+	}//main
+
+}//ArrayTest

@@ -1,0 +1,9 @@
+package ch21;
+
+public class Book {
+	
+	private String title;
+	private String author;
+	
+
+}//Book

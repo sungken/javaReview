@@ -1,0 +1,26 @@
+package ch19;
+
+import ch18.Company;
+
+public class CarFactory {
+	
+	private static CarFactory instance = new CarFactory();
+	
+	static int serialNum = 10000;
+	
+	
+	public static CarFactory getInstance() {
+		if(instance == null) {
+			instance = new CarFactory();
+		}
+		return instance;
+		
+	}
+	
+	public int createCar() {
+		serialNum++;
+		
+		return serialNum;
+	}
+	
+}//CarFactory

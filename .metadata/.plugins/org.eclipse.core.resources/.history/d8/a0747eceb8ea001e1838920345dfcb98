@@ -1,0 +1,33 @@
+package ch21;
+
+public class ObjectCopyTest {
+
+	public static void main(String[] args) {
+
+		
+		Book[] library = new Book[5];
+		Book[] copyLibrary = new Book[5];
+		
+		library[0] = new Book("태백산1", "조정");
+		library[1] = new Book("태백산2", "조정");
+		library[2] = new Book("태백산3", "조정");
+		library[3] = new Book("태백산4", "조정");
+		library[4] = new Book("태백산5", "조정");
+		
+		//library의 0부터 4까지의 배열을 복사하는 방법
+		System.arraycopy(library, 0, copyLibrary, 0, 5);
+		
+		System.out.println("== library ==");
+		for (Book book : library) {
+			book.showInfo();
+		}
+		
+		
+		System.out.println("== copy library ==");
+		for (Book book : copyLibrary) {
+			book.showInfo();
+		}
+		
+	}//main
+
+}//ObjectCopyTest

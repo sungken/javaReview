@@ -1,0 +1,22 @@
+package ch06_2;
+
+public class UserInfo {
+
+	public int userAge;
+	public String userName;
+	public int userWeight;
+	public int userheight;
+	
+	public UserInfo() {}
+	
+	public UserInfo(int userAge, int userWeight, String userName, int userheight, int userweight) {
+		
+		this.userAge = userAge;
+		this.userName = userName;
+		this.userheight = userheight;
+		this.userheight = userweight;
+		
+		
+	}
+	
+}

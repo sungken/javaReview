@@ -1,0 +1,16 @@
+package ch14;
+
+public class Subway {
+	
+	int lineNumber;
+	int money;
+	int passengerCount;
+	
+	public Subway(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
+	
+	
+	
+
+}//Subway

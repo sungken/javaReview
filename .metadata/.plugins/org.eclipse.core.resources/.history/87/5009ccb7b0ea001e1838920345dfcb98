@@ -1,0 +1,15 @@
+package ch19;
+
+public class CarFactory {
+	
+	private static CarFactory instance = new CarFactory();
+	
+	static int serialNum = 10000;
+	
+	public int createCar() {
+		serialNum++;
+		
+		return serialNum;
+	}
+	
+}//CarFactory

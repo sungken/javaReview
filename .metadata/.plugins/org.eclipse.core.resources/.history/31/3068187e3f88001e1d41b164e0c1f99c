@@ -1,0 +1,26 @@
+package ch06_2;
+
+public class UserInfo {
+
+	public int userAge;
+	public String userName;
+	public int userWeight;
+	public int userheight;
+	public String userGender;
+	
+	public UserInfo() {}
+	
+	public UserInfo(int userAge, int userWeight, String userName, int userheight, int userweight, String userGender) {
+		
+		this.userAge = userAge;
+		this.userName = userName;
+		this.userheight = userheight;
+		this.userheight = userweight;
+		this.userGender = userGender;
+			
+	}
+	public String showUserInfo() {
+		return "키가 " + userheight + "이고 몸무게가 " + userWeight + " kg인 " + userGender + "이 있습니다. 이름은 " + userName + "이고 나이는 " + userAge + "세 입니다.";
+	}
+	
+}
